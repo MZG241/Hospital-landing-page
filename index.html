@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOSPITAL-LANDING-PAGE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Crimson+Text&family=Domine&family=Ephesis&family=Kalnia:wght@100;300;400&family=Libre+Baskerville:wght@400;700&family=Lobster&family=Lora:ital,wght@0,500;1,400&family=Noto+Sans+Symbols+2&family=Noto+Serif:wght@500&family=Roboto:ital,wght@1,300&family=Rubik+Bubbles&family=Shizuru&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+*{
+margin:0;
+}
+
+body{
+font-family: Lora;
+}
+
+
+nav{
+margin-top: 15px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+a{
+color:black;
+text-decoration: none;
+}
+section{
+    display: flex;
+justify-content:space-around;
+}
+h1{
+font-size:80px;
+color:white;
+}
+.text , .images{
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.btn{
+margin-top: 50px;
+padding:20px;
+background-color: red;
+color:white;
+border:1px solid white;
+border-radius: 12px;
+font-weight: bolder;
+}
+img{
+border:2px solid black;
+box-shadow:0 0 10px  white;
+border-radius: 15px;
+}
+form{
+margin-top:30px;
+color:white;
+display: flex;
+justify-content:center;
+align-items: center;
+border: 1px solid;
+background-color: grey;
+margin-left: 25%;
+margin-right: 25%;
+padding: 10px;
+}
+.P1{
+background-color: blue;
+width:100%;
+height:auto;
+}
+input{
+padding:10px;
+margin: 5px;
+}
+button{
+padding:12px;
+background-color: blue;
+color:white;
+border: 1px solid white;
+}
+label{
+ margin: 5px;
+}
+.fa{
+margin-right:10px;
+}
+.fa-paper-plane{
+color:white;
+}
+.fa-calendar-days{
+ margin-right:10px;   
+}
+.fa-user-doctor{
+  margin-left:10px;     
+}
+
+</style>
+</head>
+<body>
+<header>
+    <nav>
+    <h3 style="color:blue">DOC-TOC<i class="fa-solid fa-user-doctor"></i></h3>
+     <a href="" style="color:blue">Home</a>
+     <a href="">About</a>
+     <a href="">Services</a>
+     <a href="">Contact us</a>
+     <a href="" style="padding:10px;background-color: blue;color:white;">Book an Appointment</a>
+    </nav>
+</header>
+<br>
+<div class="P1">
+<section >
+<div class="text">
+<h1>YOUR HEALTH IS <br> OUR PRIORITY.</h1>
+<p style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perspiciatis iure asperiores dignissimos facere maiores, dolore doloremque eveniet exercitationem, fugiat, recusandae temporibus beatae pariatur doloribus minus modi impedit sapiente perferendis.</p>
+ <button class="btn">Book an Appointment</button>
+</div>
+<div class="images">
+<img height="400" width="300"   src="images/Doctor2.webp" alt="Doctor">
+</div>
+</section>  
+<div class="Fiche" style="height: 300px;">
+<form action="">
+<div class="form1">
+    <label for=""><i class="fa fa-user"></i>Full Name</label> <br>
+    <input type="text" placeholder="Enter Your Full Name."  required=""> <br> 
+</div>
+<div class="form1">
+    <label for=""><i class="fa fa-envelope"></i>Email</label> <br>
+    <input type="email" placeholder="Enter Your Email." required=""> <br> 
+</div>
+<div class="form1">
+    <label for=""><i class="fa-solid fa-calendar-days"></i>Date</label> <br>
+    <input type="date" placeholder="Enter Your Email."> <br> 
+</div>
+
+<div class="form1" style="margin-top: 20px;">
+   <button><i class="fa-regular fa-paper-plane"></i>Book Now</button> 
+</div>
+
+</form>
+
+</div>
+</div>
+
+    
+</body>
+</html>
